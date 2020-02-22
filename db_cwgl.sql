@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : mysql_shsxt
-Source Server Version : 50638
+Source Server         : local_maria
+Source Server Version : 50505
 Source Host           : localhost:3306
 Source Database       : db_cwgl
 
 Target Server Type    : MYSQL
-Target Server Version : 50638
+Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2018-05-08 20:17:49
+Date: 2020-02-22 15:38:51
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,7 +29,7 @@ CREATE TABLE `t_admin` (
 -- ----------------------------
 -- Records of t_admin
 -- ----------------------------
-INSERT INTO `t_admin` VALUES ('1', 'a', 'a');
+INSERT INTO `t_admin` VALUES ('1', 'admin', '1');
 
 -- ----------------------------
 -- Table structure for t_bumen
@@ -156,10 +156,10 @@ CREATE TABLE `t_zhigong` (
 -- ----------------------------
 -- Records of t_zhigong
 -- ----------------------------
-INSERT INTO `t_zhigong` VALUES ('1', '1', '201301', 'a', '赵明', '男', '2008-04-01', 'no');
+INSERT INTO `t_zhigong` VALUES ('1', '1', '201301', 'a', '赵明', '男', '2011-04-15', 'no');
 INSERT INTO `t_zhigong` VALUES ('2', '1', '201302', 'a', '刘红', '男', '2013-04-01', 'no');
 INSERT INTO `t_zhigong` VALUES ('3', '2', '030024', '030024', '张三', '男', '2015-04-18', 'yes');
-INSERT INTO `t_zhigong` VALUES ('4', '1', '303333', '5555', 'zhangsan', '男', '2015-05-12', 'no');
+INSERT INTO `t_zhigong` VALUES ('4', '1', '3333', '5555', 'zhangsan', '男', '2015-05-12', 'no');
 INSERT INTO `t_zhigong` VALUES ('5', '1', '201100211', 'a', '张三', '男', '2015-05-06', 'no');
 INSERT INTO `t_zhigong` VALUES ('6', '1', '123', '123', 'lisi', '男', '2018-05-07', 'no');
 
